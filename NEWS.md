@@ -1,3 +1,3 @@
-# MO_DEMOS_countyPoverty v0.1.0
+# US_DEMOS_medianIncome v0.1.0
 
-* Add map images for poverty rates by county in Missouri for 2016
+* Add map images for median income by county in the United States for 2016
