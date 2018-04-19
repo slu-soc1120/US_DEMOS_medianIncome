@@ -1,4 +1,4 @@
-# MO_DEMOS_countyPoverty
+# US_DEMOS_medianIncome
 
 [![](https://img.shields.io/badge/extent-united%20states-red.svg)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/)
 [![](https://img.shields.io/badge/category-census%20geography-orange.svg)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/)
