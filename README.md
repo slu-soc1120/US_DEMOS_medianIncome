@@ -1,16 +1,16 @@
 # MO_DEMOS_countyPoverty
 
-[![](https://img.shields.io/badge/extent-missouri-red.svg)](https://github.com/slu-soc1120/MO_DEMOS_countyPoverty/)
-[![](https://img.shields.io/badge/category-census%20geography-orange.svg)](https://github.com/slu-soc1120/MO_DEMOS_countyPoverty/)
-[![](https://img.shields.io/github/release/slu-soc1120/MO_DEMOS_countyPoverty.svg?label=version)](https://github.com/slu-soc1120/MO_DEMOS_countyPoverty/releases)
-[![](https://img.shields.io/github/last-commit/slu-soc1120/MO_DEMOS_countyPoverty.svg)](https://github.com/slu-soc1120/MO_DEMOS_countyPoverty/commits/master)
-[![](https://img.shields.io/github/repo-size/slu-soc1120/MO_DEMOS_countyPoverty.svg)](https://github.com/slu-soc1120/MO_DEMOS_countyPoverty/)
+[![](https://img.shields.io/badge/extent-united%20states-red.svg)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/)
+[![](https://img.shields.io/badge/category-census%20geography-orange.svg)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/)
+[![](https://img.shields.io/github/release/slu-soc1120/US_DEMOS_medianIncome.svg?label=version)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/releases)
+[![](https://img.shields.io/github/last-commit/slu-soc1120/US_DEMOS_medianIncome.svg)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/commits/master)
+[![](https://img.shields.io/github/repo-size/slu-soc1120/US_DEMOS_medianIncome.svg)](https://github.com/slu-soc1120/US_DEMOS_medianIncome/)
 
 ### Abstract
-This repository contains a map image of counties in Missouri, colored by their 2016 estimated poverty rate. These data were obtained from the U.S. Census Bureau's 2016 5-year American Community Survey estimates. I use this map in two units - teaching about class and also about low birth weight (part of the gender section of the course).
+This repository contains a map image of all counties in the United States, colored by their 2016 estimated median income. These data were obtained from the U.S. Census Bureau's 2016 5-year American Community Survey estimates. I use this map in when I teach about class and stratification.
 
 ### Preview
-![preview](2016/results/povertyMap16-trans.png)
+![preview](2016/results/incomeMap16-trans.png)
 
 ## About SOC 1120: Introduction to Sociology - Diversity and Health Emphasis
 ### Course Description
