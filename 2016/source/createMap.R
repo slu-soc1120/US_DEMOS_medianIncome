@@ -18,11 +18,11 @@ library(prener)
 us_sf <- usa_sf("laea")
 
 ## Create median income object
-### download missouri counties
+### download median income by county
 us_county_income <- get_acs(geography = "county", variables = "B19013_001", 
                             shift_geo = TRUE, geometry = TRUE)
 
-### jenks natural breaks
+### calculate jenks natural breaks
 jenks <- classIntervals(us_county_income$estimate, n=5, style="jenks")
 income <- cut(us_county_income$estimate, breaks = c(jenks$brks))
 
