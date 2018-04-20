@@ -24,7 +24,7 @@ us_county_income <- get_acs(geography = "county", variables = "B19013_001",
 
 ### calculate jenks natural breaks
 jenks <- classIntervals(us_county_income$estimate, n=5, style="jenks")
-income <- cut(us_county_income$estimate, breaks = c(jenks$brks))
+income <- cut(us_county_income$estimate, breaks = c(jenks$brks), include.lowest = TRUE)
 
 
 ## Create base map
@@ -46,12 +46,12 @@ cp_plotSave(filename = "2016/results/incomeMap16-base.png", plot = base, preset 
 
 ## map with white background
 map01 <- base +
-  cp_sequoiaTheme(background = "white", map = TRUE)
+  cp_sequoiaTheme(background = "white", map = TRUE, legend_size = 1.25)
 
 cp_plotSave(filename = "2016/results/incomeMap16-white.png", plot = map01, preset = "lg", dpi = 500)
 
 ## map with transparent background
 map02 <- base +
-  cp_sequoiaTheme(background = "transparent", map = TRUE)
+  cp_sequoiaTheme(background = "transparent", map = TRUE, legend_size = 1.25)
 
 cp_plotSave(filename = "2016/results/incomeMap16-trans.png", plot = map02, preset = "lg", dpi = 500)
